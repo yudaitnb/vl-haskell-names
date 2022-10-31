@@ -55,6 +55,8 @@ deriveGTraversable ''Deriving
 
 deriveGTraversable ''Binds
 
+deriveGTraversable ''VBinds
+
 deriveGTraversable ''IPBind
 
 deriveGTraversable ''Match
