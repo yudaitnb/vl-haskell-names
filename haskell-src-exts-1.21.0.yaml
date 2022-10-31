@@ -1,3 +1,5 @@
 resolver: nightly-2018-12-10
 extra-deps:
-- haskell-src-exts-1.21.0
+# - haskell-src-exts-1.21.0
+- github: yudaitnb/vl-haskell-src-exts
+  commit: d3591d04110e7c79ac5a42740f3b65935b3b1ae6
