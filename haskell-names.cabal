@@ -242,8 +242,10 @@ Library
     , filepath >= 1.1 && < 1.5
     , containers >= 0.2 && < 0.7
     , uniplate >= 1.5.1 && < 1.7
-    , aeson >= 0.8.0.2 && < 1.6
-    , bytestring >= 0.10.4.0 && < 0.11
+    -- , aeson >= 0.8.0.2 && < 1.6
+    , aeson >= 2.0.0.0 && < 3
+    -- , bytestring >= 0.10.4.0 && < 0.11
+    , bytestring >= 0.11.3.1 && < 0.12
     , data-lens-light >= 0.1.2.1 && < 0.2
     , traverse-with-class >= 1.0.0.0 && < 1.1
   if impl(ghc <= 7.8)
